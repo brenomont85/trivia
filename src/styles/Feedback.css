@@ -1,0 +1,59 @@
+.fb-container {
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  height: 80vh;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fb-box-one {
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+  width: 500px;
+  height: 250px;
+}
+
+.fb-box-one > label > h1 {
+  font-size: 80px;
+  color: rgb(7, 80, 104);
+}
+
+.fb-box-one > label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(7, 80, 104);
+  font-weight: 600;
+}
+
+.fb-bad, .fb-good {
+  color: white;
+}
+
+.fb-box-2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fb-btn {
+  width: 240px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(255, 111, 0);
+  color: white;
+  transition: ease 0.7s;
+  height: 32px;
+}
+
+.fb-btn:enabled:hover {
+  background-color: rgb(255, 128, 0);
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.main-ranking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.header-ranking {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.main-ranking > div > h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.rank-btn {
+  width: 240px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(255, 111, 0);
+  color: white;
+  transition: ease 0.7s;
+  height: 32px;
+}
+
+.rank-btn:enabled:hover {
+  background-color: rgb(255, 128, 0);
+  cursor: pointer;
+}
+
+.box-rank {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  height: 200px;
+  border-radius: 6px;
+  width: 200px;
+  color: rgb(7, 80, 104);
+}
+
+.box-rank > img {
+  border-radius: 100%;
+}
+
+.box-ranking {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+  margin: 0 10%;
+  align-items: center;
+  justify-content: center;
+}
